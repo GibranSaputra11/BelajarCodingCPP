@@ -28,5 +28,7 @@ void prosedurOutput (){
 
 int main(){
     MeasukanNilai();
+    cout << endl;
+    prosedurOutput();
 }
 
