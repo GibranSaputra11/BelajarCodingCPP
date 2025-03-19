@@ -17,6 +17,10 @@ void MeasukanNilai(){
     cin >> Nilai5;
 }
 
+double mengHitungRerata(double a, double b, double c, double d, double e){
+    return (a+b+c+d+e)/5;
+}
+
 int main(){
     MeasukanNilai();
 }
