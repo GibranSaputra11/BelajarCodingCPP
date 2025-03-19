@@ -5,6 +5,10 @@ using namespace std;
 double nilai1, Nilai2, Nilai3, Nilai4, Nilai5;
 
 void MeasukanNilai(){
+    cout << "===================================" << endl;
+    cout << "Menghitung Rata-Rata Semester 1 - 5" << endl;
+    cout << "===================================" << endl;
+    cout << endl;
     cout << "Masukan nilai semester 1 : ";
     cin >> nilai1;
     cout << "Masukan nilai semester 2 : ";
