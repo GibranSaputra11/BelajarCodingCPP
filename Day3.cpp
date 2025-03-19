@@ -2,4 +2,22 @@
 
 using namespace std;
 
-void MeasukanNilai;
+double nilai1, Nilai2, Nilai3, Nilai4, Nilai5;
+
+void MeasukanNilai(){
+    cout << "Masukan nilai semester 1 : ";
+    cin >> nilai1;
+    cout << "Masukan nilai semester 2 : ";
+    cin >> Nilai2;
+    cout << "Masukan nilai semester 3 : ";
+    cin >> Nilai3;
+    cout << "Masukan nilai semester 4 : ";
+    cin >> Nilai4;
+    cout << "Masukan nilai semester 5 : ";
+    cin >> Nilai5;
+}
+
+int main(){
+    MeasukanNilai();
+}
+
