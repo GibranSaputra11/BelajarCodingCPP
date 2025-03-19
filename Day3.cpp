@@ -21,6 +21,11 @@ double mengHitungRerata(double a, double b, double c, double d, double e){
     return (a+b+c+d+e)/5;
 }
 
+void prosedurOutput (){
+    
+    cout << "Nilai Rata-Rata : " << mengHitungRerata(nilai1, Nilai2, Nilai3, Nilai4, Nilai5 );
+}
+
 int main(){
     MeasukanNilai();
 }
