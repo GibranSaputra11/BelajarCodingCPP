@@ -26,9 +26,9 @@ double mengHitungRerata(double a, double b, double c, double d, double e){
 }
 
 void prosedurOutput (){
-    cout << "====================" << endl;
+    cout << "======================" << endl;
     cout << "Nilai Rata-Rata : " << mengHitungRerata(nilai1, Nilai2, Nilai3, Nilai4, Nilai5 ) << endl;
-    cout << "====================";
+    cout << "======================";
 }
 
 int main(){
