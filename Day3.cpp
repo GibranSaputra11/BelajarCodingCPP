@@ -32,8 +32,37 @@ void prosedurOutput (){
 }
 
 int main(){
-    MeasukanNilai();
-    cout << endl;
-    prosedurOutput();
+    // MeasukanNilai();
+    // cout << endl;
+    // prosedurOutput();
+    int Pilihan;
+
+    do
+    {
+        cout << "===================\n";
+        cout << "PILIH MENU HITUNGAN\n";
+        cout << "===================\n";
+        cout << endl;
+        cout << "1. Menghitung rata-rata\n";
+        cout << "2. Menghitung luas segi tiga\n";
+        cout << "3. Menghitung luas persegi\n";
+        cout << "4. Kembal\n";
+        cout << "Masukan Pilihan menu (1/2/3/4) : ";
+        cin >> Pilihan;
+
+        switch (Pilihan)
+        {
+        case 1:
+            MeasukanNilai();
+            cout << endl;
+            prosedurOutput();
+            break;
+        
+        default:
+            break;
+        }
+
+    } while (Pilihan !=4 );
+    
 }
 
