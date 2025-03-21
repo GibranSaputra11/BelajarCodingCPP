@@ -25,6 +25,11 @@ double mengHitungRerata(double a, double b, double c, double d, double e){
     return (a+b+c+d+e)/5;
 }
 
+double luasSegitiga(double a, double b){
+    return (a*b)/2;
+}
+
+
 void prosedurOutput (){
     cout << "======================" << endl;
     cout << "Nilai Rata-Rata : " << mengHitungRerata(nilai1, Nilai2, Nilai3, Nilai4, Nilai5 ) << endl;
